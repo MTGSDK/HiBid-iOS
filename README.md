@@ -12,7 +12,7 @@ This document describes how to integrate and integrate the HiBid framework on th
 
 
 
-### Start to bid(For example, Using a Facebook)
+### Start to bid(For example, Facebook && Mintegral)
 
 
 1.Initialize the HBBidNetworkItem.
