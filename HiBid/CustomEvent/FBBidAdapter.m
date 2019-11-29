@@ -40,7 +40,7 @@ NSString * const FBErrorDomain = @"com.facebook";
     NSString *placementID = [adInfo objectForKey:kHiBidCustomEventPlacementID];
     NSString *platformId = [adInfo objectForKey:kHiBidCustomEventPlatformId];
     NSUInteger maxTimeoutMS = [adInfo objectForKey:kHiBidCustomEventeMaxTimeoutMS]?[[adInfo objectForKey:kHiBidCustomEventeMaxTimeoutMS] integerValue]:0;
-    if (!testMode) {
+    if (testMode) {
 
         [FBAdBidRequest getAudienceNetworkTestBidForAppID:appId
                                               placementID:placementID
