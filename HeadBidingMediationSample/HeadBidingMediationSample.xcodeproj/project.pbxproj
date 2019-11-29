@@ -1,0 +1,877 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA20BF6522B8DA7100D53A4F /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CA20BF6422B8DA7100D53A4F /* libsqlite3.0.tbd */; };
+		CA20BF6722B8DAC800D53A4F /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CA20BF6622B8DAC800D53A4F /* libz.tbd */; };
+		CA2D847122893CF0002D7110 /* HBBidNetworkItemTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2D847022893CF0002D7110 /* HBBidNetworkItemTest.m */; };
+		CA5E1D4A22CB33D100B38F85 /* MTGSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA5E1D4822CB33D000B38F85 /* MTGSDK.framework */; };
+		CA5E1D4B22CB33D100B38F85 /* MTGSDKBidding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA5E1D4922CB33D100B38F85 /* MTGSDKBidding.framework */; };
+		CA7100FA2273142600E3DF49 /* HBAdsBidRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7100D42273142600E3DF49 /* HBAdsBidRequest.m */; };
+		CA7100FC2273142600E3DF49 /* HBAdBidError.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7100D82273142600E3DF49 /* HBAdBidError.m */; };
+		CA7100FD2273142600E3DF49 /* HBBidAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7100DA2273142600E3DF49 /* HBBidAdapter.m */; };
+		CA7100FE2273142600E3DF49 /* HBAuctionResult.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7100DB2273142600E3DF49 /* HBAuctionResult.m */; };
+		CA7100FF2273142600E3DF49 /* HBBidBaseCustomEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7100DC2273142600E3DF49 /* HBBidBaseCustomEvent.m */; };
+		CA7101002273142600E3DF49 /* FBAudienceNetworkBiddingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA7100E02273142600E3DF49 /* FBAudienceNetworkBiddingKit.framework */; };
+		CA7101012273142600E3DF49 /* FBAudienceNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA7100E12273142600E3DF49 /* FBAudienceNetwork.framework */; };
+		CA7101052273142600E3DF49 /* MTGBidAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7100E72273142600E3DF49 /* MTGBidAdapter.m */; };
+		CA7101082273142600E3DF49 /* FBBidAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7100EE2273142600E3DF49 /* FBBidAdapter.m */; };
+		CA7101092273142600E3DF49 /* HBBidNetworkItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7100F12273142600E3DF49 /* HBBidNetworkItem.m */; };
+		CA71010A2273142600E3DF49 /* HBAdBidResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7100F52273142600E3DF49 /* HBAdBidResponse.m */; };
+		CA71010B2273142600E3DF49 /* HBBidRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7100F82273142600E3DF49 /* HBBidRequestManager.m */; };
+		CA7A8E43228A7B2A006EACD6 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA7A8E41228A7B2A006EACD6 /* icon@2x.png */; };
+		CA7A8E44228A7B2A006EACD6 /* icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA7A8E42228A7B2A006EACD6 /* icon@3x.png */; };
+		CA8F38912265C5BA009EC218 /* IndexViewPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8F38902265C5BA009EC218 /* IndexViewPageViewController.m */; };
+		CACEE497226DCEE4000B1F71 /* GDAdsBidRequestTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CACEE496226DCEE4000B1F71 /* GDAdsBidRequestTest.m */; };
+		CAF36EF3225C696200EE5071 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF36EF2225C696200EE5071 /* AppDelegate.m */; };
+		CAF36EF9225C696200EE5071 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAF36EF7225C696200EE5071 /* Main.storyboard */; };
+		CAF36EFB225C696500EE5071 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAF36EFA225C696500EE5071 /* Assets.xcassets */; };
+		CAF36EFE225C696500EE5071 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAF36EFC225C696500EE5071 /* LaunchScreen.storyboard */; };
+		CAF36F01225C696500EE5071 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF36F00225C696500EE5071 /* main.m */; };
+		CAF36F0B225C696500EE5071 /* HeadBidingMediationSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF36F0A225C696500EE5071 /* HeadBidingMediationSampleTests.m */; };
+		CAF36F16225C696500EE5071 /* HeadBidingMediationSampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF36F15225C696500EE5071 /* HeadBidingMediationSampleUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAF36F07225C696500EE5071 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAF36EE6225C696200EE5071 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAF36EED225C696200EE5071;
+			remoteInfo = HeadBidingMediationSample;
+		};
+		CAF36F12225C696500EE5071 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAF36EE6225C696200EE5071 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAF36EED225C696200EE5071;
+			remoteInfo = HeadBidingMediationSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA20BF6422B8DA7100D53A4F /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		CA20BF6622B8DAC800D53A4F /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		CA2D847022893CF0002D7110 /* HBBidNetworkItemTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBBidNetworkItemTest.m; sourceTree = "<group>"; };
+		CA5E1D4822CB33D000B38F85 /* MTGSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MTGSDK.framework; sourceTree = "<group>"; };
+		CA5E1D4922CB33D100B38F85 /* MTGSDKBidding.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MTGSDKBidding.framework; sourceTree = "<group>"; };
+		CA7100D22273142600E3DF49 /* HBBidBaseCustomEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBBidBaseCustomEvent.h; sourceTree = "<group>"; };
+		CA7100D32273142600E3DF49 /* HBAdsBidConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBAdsBidConstants.h; sourceTree = "<group>"; };
+		CA7100D42273142600E3DF49 /* HBAdsBidRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBAdsBidRequest.m; sourceTree = "<group>"; };
+		CA7100D62273142600E3DF49 /* HBBidNetworkItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBBidNetworkItem.h; sourceTree = "<group>"; };
+		CA7100D72273142600E3DF49 /* HBAdBidResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBAdBidResponse.h; sourceTree = "<group>"; };
+		CA7100D82273142600E3DF49 /* HBAdBidError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBAdBidError.m; sourceTree = "<group>"; };
+		CA7100D92273142600E3DF49 /* HBBidRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBBidRequestManager.h; sourceTree = "<group>"; };
+		CA7100DA2273142600E3DF49 /* HBBidAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBBidAdapter.m; sourceTree = "<group>"; };
+		CA7100DB2273142600E3DF49 /* HBAuctionResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBAuctionResult.m; sourceTree = "<group>"; };
+		CA7100DC2273142600E3DF49 /* HBBidBaseCustomEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBBidBaseCustomEvent.m; sourceTree = "<group>"; };
+		CA7100DD2273142600E3DF49 /* HBAdBidResponse+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HBAdBidResponse+Addition.h"; sourceTree = "<group>"; };
+		CA7100E02273142600E3DF49 /* FBAudienceNetworkBiddingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBAudienceNetworkBiddingKit.framework; sourceTree = "<group>"; };
+		CA7100E12273142600E3DF49 /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBAudienceNetwork.framework; sourceTree = "<group>"; };
+		CA7100E72273142600E3DF49 /* MTGBidAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTGBidAdapter.m; sourceTree = "<group>"; };
+		CA7100E82273142600E3DF49 /* FBBidAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBBidAdapter.h; sourceTree = "<group>"; };
+		CA7100EE2273142600E3DF49 /* FBBidAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBBidAdapter.m; sourceTree = "<group>"; };
+		CA7100EF2273142600E3DF49 /* MTGBidAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTGBidAdapter.h; sourceTree = "<group>"; };
+		CA7100F12273142600E3DF49 /* HBBidNetworkItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBBidNetworkItem.m; sourceTree = "<group>"; };
+		CA7100F22273142600E3DF49 /* HBAdsBidRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBAdsBidRequest.h; sourceTree = "<group>"; };
+		CA7100F32273142600E3DF49 /* HBAuctionResult+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HBAuctionResult+Addition.h"; sourceTree = "<group>"; };
+		CA7100F42273142600E3DF49 /* HBAdBidError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBAdBidError.h; sourceTree = "<group>"; };
+		CA7100F52273142600E3DF49 /* HBAdBidResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBAdBidResponse.m; sourceTree = "<group>"; };
+		CA7100F62273142600E3DF49 /* HBAuctionResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBAuctionResult.h; sourceTree = "<group>"; };
+		CA7100F72273142600E3DF49 /* HBBidAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBBidAdapter.h; sourceTree = "<group>"; };
+		CA7100F82273142600E3DF49 /* HBBidRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBBidRequestManager.m; sourceTree = "<group>"; };
+		CA7A8E41228A7B2A006EACD6 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		CA7A8E42228A7B2A006EACD6 /* icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@3x.png"; sourceTree = "<group>"; };
+		CA8F388F2265C5BA009EC218 /* IndexViewPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IndexViewPageViewController.h; sourceTree = "<group>"; };
+		CA8F38902265C5BA009EC218 /* IndexViewPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IndexViewPageViewController.m; sourceTree = "<group>"; };
+		CACEE496226DCEE4000B1F71 /* GDAdsBidRequestTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GDAdsBidRequestTest.m; sourceTree = "<group>"; };
+		CAF36EEE225C696200EE5071 /* HeadBidingMediationSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeadBidingMediationSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAF36EF1225C696200EE5071 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CAF36EF2225C696200EE5071 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CAF36EF8225C696200EE5071 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAF36EFA225C696500EE5071 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAF36EFD225C696500EE5071 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CAF36EFF225C696500EE5071 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAF36F00225C696500EE5071 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CAF36F06225C696500EE5071 /* HeadBidingMediationSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeadBidingMediationSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAF36F0A225C696500EE5071 /* HeadBidingMediationSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeadBidingMediationSampleTests.m; sourceTree = "<group>"; };
+		CAF36F0C225C696500EE5071 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAF36F11225C696500EE5071 /* HeadBidingMediationSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeadBidingMediationSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAF36F15225C696500EE5071 /* HeadBidingMediationSampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeadBidingMediationSampleUITests.m; sourceTree = "<group>"; };
+		CAF36F17225C696500EE5071 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAF36EEB225C696200EE5071 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA20BF6722B8DAC800D53A4F /* libz.tbd in Frameworks */,
+				CA5E1D4A22CB33D100B38F85 /* MTGSDK.framework in Frameworks */,
+				CA20BF6522B8DA7100D53A4F /* libsqlite3.0.tbd in Frameworks */,
+				CA7101002273142600E3DF49 /* FBAudienceNetworkBiddingKit.framework in Frameworks */,
+				CA5E1D4B22CB33D100B38F85 /* MTGSDKBidding.framework in Frameworks */,
+				CA7101012273142600E3DF49 /* FBAudienceNetwork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF36F03225C696500EE5071 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF36F0E225C696500EE5071 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA20BF6322B8DA7000D53A4F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA20BF6622B8DAC800D53A4F /* libz.tbd */,
+				CA20BF6422B8DA7100D53A4F /* libsqlite3.0.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA7100D02273142600E3DF49 /* HiBid */ = {
+			isa = PBXGroup;
+			children = (
+				CA7100F22273142600E3DF49 /* HBAdsBidRequest.h */,
+				CA7100D42273142600E3DF49 /* HBAdsBidRequest.m */,
+				CA7100F62273142600E3DF49 /* HBAuctionResult.h */,
+				CA7100DB2273142600E3DF49 /* HBAuctionResult.m */,
+				CA7100D72273142600E3DF49 /* HBAdBidResponse.h */,
+				CA7100F52273142600E3DF49 /* HBAdBidResponse.m */,
+				CA7100DD2273142600E3DF49 /* HBAdBidResponse+Addition.h */,
+				CA7100F32273142600E3DF49 /* HBAuctionResult+Addition.h */,
+				CA7100D92273142600E3DF49 /* HBBidRequestManager.h */,
+				CA7100F82273142600E3DF49 /* HBBidRequestManager.m */,
+				CA7100D22273142600E3DF49 /* HBBidBaseCustomEvent.h */,
+				CA7100DC2273142600E3DF49 /* HBBidBaseCustomEvent.m */,
+				CA7100D32273142600E3DF49 /* HBAdsBidConstants.h */,
+				CA7100D62273142600E3DF49 /* HBBidNetworkItem.h */,
+				CA7100F12273142600E3DF49 /* HBBidNetworkItem.m */,
+				CA7100F72273142600E3DF49 /* HBBidAdapter.h */,
+				CA7100DA2273142600E3DF49 /* HBBidAdapter.m */,
+				CA7100F42273142600E3DF49 /* HBAdBidError.h */,
+				CA7100D82273142600E3DF49 /* HBAdBidError.m */,
+				CA7100DE2273142600E3DF49 /* SDK */,
+				CA7100E42273142600E3DF49 /* CustomEvent */,
+			);
+			name = HiBid;
+			path = ../../HiBid;
+			sourceTree = "<group>";
+		};
+		CA7100DE2273142600E3DF49 /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				CA7100DF2273142600E3DF49 /* Facebook */,
+				CA7100E22273142600E3DF49 /* Mintegral */,
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
+		CA7100DF2273142600E3DF49 /* Facebook */ = {
+			isa = PBXGroup;
+			children = (
+				CA7100E02273142600E3DF49 /* FBAudienceNetworkBiddingKit.framework */,
+				CA7100E12273142600E3DF49 /* FBAudienceNetwork.framework */,
+			);
+			path = Facebook;
+			sourceTree = "<group>";
+		};
+		CA7100E22273142600E3DF49 /* Mintegral */ = {
+			isa = PBXGroup;
+			children = (
+				CA5E1D4822CB33D000B38F85 /* MTGSDK.framework */,
+				CA5E1D4922CB33D100B38F85 /* MTGSDKBidding.framework */,
+			);
+			path = Mintegral;
+			sourceTree = "<group>";
+		};
+		CA7100E42273142600E3DF49 /* CustomEvent */ = {
+			isa = PBXGroup;
+			children = (
+				CA7100E82273142600E3DF49 /* FBBidAdapter.h */,
+				CA7100EE2273142600E3DF49 /* FBBidAdapter.m */,
+				CA7100EF2273142600E3DF49 /* MTGBidAdapter.h */,
+				CA7100E72273142600E3DF49 /* MTGBidAdapter.m */,
+			);
+			path = CustomEvent;
+			sourceTree = "<group>";
+		};
+		CAF36EE5225C696200EE5071 = {
+			isa = PBXGroup;
+			children = (
+				CAF36EF0225C696200EE5071 /* HeadBidingMediationSample */,
+				CAF36F09225C696500EE5071 /* HeadBidingMediationSampleTests */,
+				CAF36F14225C696500EE5071 /* HeadBidingMediationSampleUITests */,
+				CAF36EEF225C696200EE5071 /* Products */,
+				CA20BF6322B8DA7000D53A4F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CAF36EEF225C696200EE5071 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAF36EEE225C696200EE5071 /* HeadBidingMediationSample.app */,
+				CAF36F06225C696500EE5071 /* HeadBidingMediationSampleTests.xctest */,
+				CAF36F11225C696500EE5071 /* HeadBidingMediationSampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAF36EF0225C696200EE5071 /* HeadBidingMediationSample */ = {
+			isa = PBXGroup;
+			children = (
+				CA7100D02273142600E3DF49 /* HiBid */,
+				CAF36EF1225C696200EE5071 /* AppDelegate.h */,
+				CAF36EF2225C696200EE5071 /* AppDelegate.m */,
+				CA8F388F2265C5BA009EC218 /* IndexViewPageViewController.h */,
+				CA8F38902265C5BA009EC218 /* IndexViewPageViewController.m */,
+				CAF36EF7225C696200EE5071 /* Main.storyboard */,
+				CAF36EFA225C696500EE5071 /* Assets.xcassets */,
+				CAF36EFC225C696500EE5071 /* LaunchScreen.storyboard */,
+				CAF36EFF225C696500EE5071 /* Info.plist */,
+				CAF36F00225C696500EE5071 /* main.m */,
+				CA7A8E41228A7B2A006EACD6 /* icon@2x.png */,
+				CA7A8E42228A7B2A006EACD6 /* icon@3x.png */,
+			);
+			path = HeadBidingMediationSample;
+			sourceTree = "<group>";
+		};
+		CAF36F09225C696500EE5071 /* HeadBidingMediationSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAF36F0A225C696500EE5071 /* HeadBidingMediationSampleTests.m */,
+				CAF36F0C225C696500EE5071 /* Info.plist */,
+				CACEE496226DCEE4000B1F71 /* GDAdsBidRequestTest.m */,
+				CA2D847022893CF0002D7110 /* HBBidNetworkItemTest.m */,
+			);
+			path = HeadBidingMediationSampleTests;
+			sourceTree = "<group>";
+		};
+		CAF36F14225C696500EE5071 /* HeadBidingMediationSampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CAF36F15225C696500EE5071 /* HeadBidingMediationSampleUITests.m */,
+				CAF36F17225C696500EE5071 /* Info.plist */,
+			);
+			path = HeadBidingMediationSampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAF36EED225C696200EE5071 /* HeadBidingMediationSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAF36F1A225C696500EE5071 /* Build configuration list for PBXNativeTarget "HeadBidingMediationSample" */;
+			buildPhases = (
+				CAF36EEA225C696200EE5071 /* Sources */,
+				CAF36EEB225C696200EE5071 /* Frameworks */,
+				CAF36EEC225C696200EE5071 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeadBidingMediationSample;
+			productName = HeadBidingMediationSample;
+			productReference = CAF36EEE225C696200EE5071 /* HeadBidingMediationSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAF36F05225C696500EE5071 /* HeadBidingMediationSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAF36F1D225C696500EE5071 /* Build configuration list for PBXNativeTarget "HeadBidingMediationSampleTests" */;
+			buildPhases = (
+				CAF36F02225C696500EE5071 /* Sources */,
+				CAF36F03225C696500EE5071 /* Frameworks */,
+				CAF36F04225C696500EE5071 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAF36F08225C696500EE5071 /* PBXTargetDependency */,
+			);
+			name = HeadBidingMediationSampleTests;
+			productName = HeadBidingMediationSampleTests;
+			productReference = CAF36F06225C696500EE5071 /* HeadBidingMediationSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CAF36F10225C696500EE5071 /* HeadBidingMediationSampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAF36F20225C696500EE5071 /* Build configuration list for PBXNativeTarget "HeadBidingMediationSampleUITests" */;
+			buildPhases = (
+				CAF36F0D225C696500EE5071 /* Sources */,
+				CAF36F0E225C696500EE5071 /* Frameworks */,
+				CAF36F0F225C696500EE5071 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAF36F13225C696500EE5071 /* PBXTargetDependency */,
+			);
+			name = HeadBidingMediationSampleUITests;
+			productName = HeadBidingMediationSampleUITests;
+			productReference = CAF36F11225C696500EE5071 /* HeadBidingMediationSampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAF36EE6225C696200EE5071 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Mintegral;
+				TargetAttributes = {
+					CAF36EED225C696200EE5071 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					CAF36F05225C696500EE5071 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CAF36EED225C696200EE5071;
+					};
+					CAF36F10225C696500EE5071 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CAF36EED225C696200EE5071;
+					};
+				};
+			};
+			buildConfigurationList = CAF36EE9225C696200EE5071 /* Build configuration list for PBXProject "HeadBidingMediationSample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAF36EE5225C696200EE5071;
+			productRefGroup = CAF36EEF225C696200EE5071 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAF36EED225C696200EE5071 /* HeadBidingMediationSample */,
+				CAF36F05225C696500EE5071 /* HeadBidingMediationSampleTests */,
+				CAF36F10225C696500EE5071 /* HeadBidingMediationSampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAF36EEC225C696200EE5071 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF36EFE225C696500EE5071 /* LaunchScreen.storyboard in Resources */,
+				CA7A8E43228A7B2A006EACD6 /* icon@2x.png in Resources */,
+				CA7A8E44228A7B2A006EACD6 /* icon@3x.png in Resources */,
+				CAF36EFB225C696500EE5071 /* Assets.xcassets in Resources */,
+				CAF36EF9225C696200EE5071 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF36F04225C696500EE5071 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF36F0F225C696500EE5071 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAF36EEA225C696200EE5071 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA8F38912265C5BA009EC218 /* IndexViewPageViewController.m in Sources */,
+				CA7101082273142600E3DF49 /* FBBidAdapter.m in Sources */,
+				CA7101092273142600E3DF49 /* HBBidNetworkItem.m in Sources */,
+				CA7100FD2273142600E3DF49 /* HBBidAdapter.m in Sources */,
+				CAF36F01225C696500EE5071 /* main.m in Sources */,
+				CA7100FA2273142600E3DF49 /* HBAdsBidRequest.m in Sources */,
+				CA7101052273142600E3DF49 /* MTGBidAdapter.m in Sources */,
+				CA71010A2273142600E3DF49 /* HBAdBidResponse.m in Sources */,
+				CA7100FF2273142600E3DF49 /* HBBidBaseCustomEvent.m in Sources */,
+				CAF36EF3225C696200EE5071 /* AppDelegate.m in Sources */,
+				CA7100FE2273142600E3DF49 /* HBAuctionResult.m in Sources */,
+				CA7100FC2273142600E3DF49 /* HBAdBidError.m in Sources */,
+				CA71010B2273142600E3DF49 /* HBBidRequestManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF36F02225C696500EE5071 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF36F0B225C696500EE5071 /* HeadBidingMediationSampleTests.m in Sources */,
+				CACEE497226DCEE4000B1F71 /* GDAdsBidRequestTest.m in Sources */,
+				CA2D847122893CF0002D7110 /* HBBidNetworkItemTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF36F0D225C696500EE5071 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF36F16225C696500EE5071 /* HeadBidingMediationSampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAF36F08225C696500EE5071 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAF36EED225C696200EE5071 /* HeadBidingMediationSample */;
+			targetProxy = CAF36F07225C696500EE5071 /* PBXContainerItemProxy */;
+		};
+		CAF36F13225C696500EE5071 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAF36EED225C696200EE5071 /* HeadBidingMediationSample */;
+			targetProxy = CAF36F12225C696500EE5071 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAF36EF7225C696200EE5071 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAF36EF8225C696200EE5071 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CAF36EFC225C696500EE5071 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAF36EFD225C696500EE5071 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CACEE498226DD6CE000B1F71 /* Xctest */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Xctest;
+		};
+		CACEE499226DD6CE000B1F71 /* Xctest */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DJRJZKDWWH;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../HiBid/SDK/**";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = HeadBidingMediationSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mintegral.HeadBidingMediationSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Xctest;
+		};
+		CACEE49A226DD6CE000B1F71 /* Xctest */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DJRJZKDWWH;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../HiBid";
+				INFOPLIST_FILE = HeadBidingMediationSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mintegral.HeadBidingMediationSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeadBidingMediationSample.app/HeadBidingMediationSample";
+			};
+			name = Xctest;
+		};
+		CACEE49B226DD6CE000B1F71 /* Xctest */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DJRJZKDWWH;
+				INFOPLIST_FILE = HeadBidingMediationSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mintegral.HeadBidingMediationSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HeadBidingMediationSample;
+			};
+			name = Xctest;
+		};
+		CAF36F18225C696500EE5071 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CAF36F19225C696500EE5071 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAF36F1B225C696500EE5071 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DJRJZKDWWH;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../HiBid/SDK/**";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = HeadBidingMediationSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mintegral.HeadBidingMediationSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		CAF36F1C225C696500EE5071 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DJRJZKDWWH;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../HiBid/SDK/**";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = HeadBidingMediationSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mintegral.HeadBidingMediationSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		CAF36F1E225C696500EE5071 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DJRJZKDWWH;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../HiBid";
+				INFOPLIST_FILE = HeadBidingMediationSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mintegral.HeadBidingMediationSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeadBidingMediationSample.app/HeadBidingMediationSample";
+			};
+			name = Debug;
+		};
+		CAF36F1F225C696500EE5071 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DJRJZKDWWH;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../HiBid";
+				INFOPLIST_FILE = HeadBidingMediationSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mintegral.HeadBidingMediationSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeadBidingMediationSample.app/HeadBidingMediationSample";
+			};
+			name = Release;
+		};
+		CAF36F21225C696500EE5071 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DJRJZKDWWH;
+				INFOPLIST_FILE = HeadBidingMediationSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mintegral.HeadBidingMediationSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HeadBidingMediationSample;
+			};
+			name = Debug;
+		};
+		CAF36F22225C696500EE5071 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DJRJZKDWWH;
+				INFOPLIST_FILE = HeadBidingMediationSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mintegral.HeadBidingMediationSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HeadBidingMediationSample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAF36EE9225C696200EE5071 /* Build configuration list for PBXProject "HeadBidingMediationSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAF36F18225C696500EE5071 /* Debug */,
+				CACEE498226DD6CE000B1F71 /* Xctest */,
+				CAF36F19225C696500EE5071 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAF36F1A225C696500EE5071 /* Build configuration list for PBXNativeTarget "HeadBidingMediationSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAF36F1B225C696500EE5071 /* Debug */,
+				CACEE499226DD6CE000B1F71 /* Xctest */,
+				CAF36F1C225C696500EE5071 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAF36F1D225C696500EE5071 /* Build configuration list for PBXNativeTarget "HeadBidingMediationSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAF36F1E225C696500EE5071 /* Debug */,
+				CACEE49A226DD6CE000B1F71 /* Xctest */,
+				CAF36F1F225C696500EE5071 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAF36F20225C696500EE5071 /* Build configuration list for PBXNativeTarget "HeadBidingMediationSampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAF36F21225C696500EE5071 /* Debug */,
+				CACEE49B226DD6CE000B1F71 /* Xctest */,
+				CAF36F22225C696500EE5071 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAF36EE6225C696200EE5071 /* Project object */;
+}

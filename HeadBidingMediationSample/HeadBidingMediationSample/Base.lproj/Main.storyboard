@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="y4r-eJ-ne3">
+    <device id="retina6_5" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Index View Page View Controller-->
+        <scene sceneID="YaM-xK-5rV">
+            <objects>
+                <viewController id="y4r-eJ-ne3" customClass="IndexViewPageViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Jvw-Lu-CiU">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="PGM-qY-okK">
+                                <rect key="frame" x="0.0" y="0.0" width="896" height="321"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <tableView key="tableFooterView" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="8kw-6J-gj1">
+                                    <rect key="frame" x="0.0" y="0.0" width="896" height="742"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <tableView key="tableFooterView" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="zhu-QE-7oW">
+                                        <rect key="frame" x="0.0" y="0.0" width="896" height="742"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <tableView key="tableFooterView" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="jID-tj-ZvO">
+                                            <rect key="frame" x="0.0" y="0.0" width="896" height="742"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <connections>
+                                                <outlet property="dataSource" destination="y4r-eJ-ne3" id="qL6-rQ-JVD"/>
+                                                <outlet property="delegate" destination="y4r-eJ-ne3" id="vzo-nK-igr"/>
+                                            </connections>
+                                        </tableView>
+                                        <connections>
+                                            <outlet property="dataSource" destination="y4r-eJ-ne3" id="RHp-ON-LKl"/>
+                                            <outlet property="delegate" destination="y4r-eJ-ne3" id="yu2-em-8F5"/>
+                                        </connections>
+                                    </tableView>
+                                    <connections>
+                                        <outlet property="dataSource" destination="y4r-eJ-ne3" id="kbI-CP-Se6"/>
+                                        <outlet property="delegate" destination="y4r-eJ-ne3" id="GdX-Uf-YB1"/>
+                                    </connections>
+                                </tableView>
+                                <connections>
+                                    <outlet property="dataSource" destination="y4r-eJ-ne3" id="TG1-Ep-SZZ"/>
+                                    <outlet property="delegate" destination="y4r-eJ-ne3" id="pWk-Rb-YhO"/>
+                                </connections>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EzZ-iE-LHz">
+                                <rect key="frame" x="198" y="329" width="500" height="49"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="9IJ-NQ-dyJ"/>
+                                </constraints>
+                                <state key="normal" title="Bid">
+                                    <color key="titleColor" red="0.021522272378206253" green="0.072783403098583221" blue="0.96161478757858276" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="requestAuctionResultButtonAction:" destination="y4r-eJ-ne3" eventType="touchUpInside" id="REU-MN-9On"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="PGM-qY-okK" firstAttribute="leading" secondItem="Jvw-Lu-CiU" secondAttribute="leading" id="CES-qX-2OC"/>
+                            <constraint firstItem="dfF-z5-71h" firstAttribute="bottom" secondItem="EzZ-iE-LHz" secondAttribute="bottom" constant="15" id="Fxu-VV-0TE"/>
+                            <constraint firstItem="EzZ-iE-LHz" firstAttribute="centerX" secondItem="Jvw-Lu-CiU" secondAttribute="centerX" id="hP1-Hk-RRW"/>
+                            <constraint firstItem="PGM-qY-okK" firstAttribute="top" secondItem="Jvw-Lu-CiU" secondAttribute="topMargin" id="kg0-cF-bYq"/>
+                            <constraint firstItem="EzZ-iE-LHz" firstAttribute="centerX" secondItem="PGM-qY-okK" secondAttribute="centerX" id="lHX-l3-HzT"/>
+                            <constraint firstItem="EzZ-iE-LHz" firstAttribute="top" secondItem="PGM-qY-okK" secondAttribute="bottom" constant="8" id="nqJ-tq-By8"/>
+                            <constraint firstItem="EzZ-iE-LHz" firstAttribute="leading" secondItem="dfF-z5-71h" secondAttribute="leading" constant="154" id="tRR-cb-Lmb"/>
+                            <constraint firstItem="EzZ-iE-LHz" firstAttribute="top" secondItem="PGM-qY-okK" secondAttribute="bottom" constant="8" symbolic="YES" id="vzU-ca-b4L"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="dfF-z5-71h"/>
+                    </view>
+                    <connections>
+                        <outlet property="bidButton" destination="EzZ-iE-LHz" id="YRp-Hx-qI3"/>
+                        <outlet property="tableView" destination="PGM-qY-okK" id="AVi-0t-dJj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jD2-Op-vPi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="79.710144927536234" y="-110.49107142857143"/>
+        </scene>
+    </scenes>
+</document>
